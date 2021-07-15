@@ -60,10 +60,10 @@
                 
                     </li>
                     <li>
-                        <a href="{{ route('homeadmin') }}"><i class="fa fa-user "></i>Programmer une soutenance</a>
+                        <a href="{{ route('homeadmin') }}"><i class="fa fa-user "></i>Dashboard</a>
                     </li>
     
-    {{--                 
+               
                     
                 </ul>
             </div>
