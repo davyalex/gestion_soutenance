@@ -59,7 +59,11 @@
                         </a>                    
                 
                     </li>
-                    
+                    <li>
+                        <a href="{{ route('homeadmin') }}"><i class="fa fa-user "></i>Programmer une soutenance</a>
+                    </li>
+    
+    {{--                 
                     
                 </ul>
             </div>
