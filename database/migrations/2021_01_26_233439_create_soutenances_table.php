@@ -19,7 +19,7 @@ class CreateSoutenancesTable extends Migration
             $table->time('heure_soutenance');          
             $table->foreignId('salle_id')->constrained()->onDelete('cascade');
             // $table->foreignId('jury_id')->constrained()->onDelete('cascade');
-            $table->foreignId('etudiant_id')->constrained()->onDelete('cascade');              
+            $table->foreignId('etudiant_id')->references('id')->constrained()->onDelete('cascade');              
             $table->string('num_insc'); 
             $table->timestamps();
         });
