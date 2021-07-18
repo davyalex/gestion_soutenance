@@ -93,7 +93,9 @@
 
                 @if (Route::has('register'))
                 <li>
+                    @if ( Auth::user()->email=='alexkouamelan96@gmail.com' )
                     <a class="" href="{{ route('register') }}"><i class="fa fa-user "></i>{{ __('Ajouter un admin') }}</a>
+                    @endif
                 </li>
             @endif
                    @endauth

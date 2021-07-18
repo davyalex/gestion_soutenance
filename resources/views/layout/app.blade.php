@@ -60,7 +60,7 @@
                 
                     </li>
                     <li>
-                        <a href="{{ route('homeadmin') }}"><i class="fa fa-user "></i>Dashboard</a>
+                        {{-- <a href="{{ route('homeadmin') }}"><i class="fa fa-user "></i>Dashboard</a> --}}
                     </li>
     
                
